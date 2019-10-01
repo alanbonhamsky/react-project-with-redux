@@ -3,16 +3,10 @@ import './App.css';
 import { bindActionCreators } from 'redux'
 import * as actionCreators from './actions/actionCreators'
 import { connect } from 'react-redux'
-import Main from './components/Main'
+import Main from './components/Main/Main'
 
 export const mapStateToProps = state => ({
-  // config: state.config,
-  // currentCoolOff: state.currentCoolOff,
-  // form: state.form,
-  // message: state.message,
-  // options: state.options,
-  // page: state.page,
-  // submission: state.submission
+
 })
 
 export const mapDispatchToProps = dispatch =>
